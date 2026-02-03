@@ -23,7 +23,7 @@ Instead of guessing which region to expand in next, the **City-Level Analysis** 
 
 ## 🖥️ The Strategic Interface
 <p align="center">
-  <img src="image_640630.jpg" width="1000" title="Sales Strategy Dashboard">
+  <img src="Dashboard.png" width="1000" title="Sales Strategy Dashboard">
 </p>
 
 ---
