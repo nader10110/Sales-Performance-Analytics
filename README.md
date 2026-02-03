@@ -25,8 +25,9 @@ Instead of guessing which region to expand in next, the **City-Level Analysis** 
 <p align="center">
   <img src="Dashboard.png" width="1000" title="Sales Strategy Dashboard">
 </p>
+
 > [!TIP]
-> **[🚀 Click Here to Explore the Interactive Live Dashboard](<iframe title="Sales Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTBkZWEwOTEtYmI5Zi00M2ExLTk5MTYtYWY3MzA3YTJmY2E3IiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>)**
+> **🚀 [Click Here to Explore the Interactive Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTBkZWEwOTEtYmI5Zi00M2ExLTk5MTYtYWY3MzA3YTJmY2E3IiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9)**
 
 ---
 
