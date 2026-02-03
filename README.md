@@ -56,10 +56,19 @@ To identify "Profit Leaks," I programmed these financial indicators:
 #### 📅 Master Date Intelligence (Time Engine)
 I engineered a custom **Time Dimension Table** to support deep-dive chronological analysis:
 ```dax
-DAX DateTable = ADDCOLUMNS (
+DAX DateTable = 
+ADDCOLUMNS (
     CALENDARAUTO(),
     "Year", YEAR([Date]),
     "Quarter", "Q" & FORMAT(CEILING(MONTH([Date])/3, 1), "#"),
+    "Quarter No", CEILING(MONTH([Date])/3, 1),
+    "Month No", MONTH([Date]),
     "Month Name", FORMAT([Date], "MMMM"),
-    "Month sort", FORMAT([Date], "YYYYmm") // Used for chronological visual sorting
+    "Month Short Name", FORMAT([Date], "MMM"),
+    "Month Short Name Plus Year", FORMAT([Date], "MMM,yy"),
+    "Month sort", FORMAT([Date], "YYYYmm"), // Crucial for chronological sorting
+    "DateSort", FORMAT([Date], "yyyyMMdd"),
+    "Day Name", FORMAT([Date], "dddd"),
+    "Details", FORMAT([Date], "dd-MMM-yyyy"),
+    "Day Number", DAY ( [Date] )
 )
